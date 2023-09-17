@@ -13,7 +13,7 @@ loginButton.addEventListener("click", (e) => {
     if (username === "1" && password === "1") {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
-        location.replace("login-page.htm");
+        location.replace("https://moaber231.github.io/main/");
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
